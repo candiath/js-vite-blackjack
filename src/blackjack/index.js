@@ -80,9 +80,7 @@ btnDetener.addEventListener('click', () => {
 
 btnNuevo.addEventListener('click', () => {
 
-    // console.clear();
-    consolé.log("btnNuevo.click");
-    alert("btnNuevo.click");
+    console.clear();
     deck = [];
     deck = crearDeck(tipos, especiales);
 
